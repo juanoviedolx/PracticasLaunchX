@@ -1,0 +1,26 @@
+.sabores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+}
+
+.galeria_sabores{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.sabor{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
